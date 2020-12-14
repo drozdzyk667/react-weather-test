@@ -1,4 +1,4 @@
-import { Translation } from '../helpers/translations.types';
+import { Translation } from 'modules/WeatherChecker/translations/helpers/translations.types';
 
 const pl: Translation = {
   pl: {

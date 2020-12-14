@@ -1,5 +1,5 @@
 import { WeatherCheckerDataFields, WeatherDetails } from 'modules/WeatherChecker/helpers/WeatherChecker.types';
-import { CityHeaderProps } from '../WeatherCheckerView/components/WeatherDataContainer/components/CityHeader/CityHeader.component';
+import { CityHeaderProps } from 'modules/WeatherChecker/WeatherCheckerView/components/WeatherDataContainer/components/CityHeader/CityHeader.component';
 
 export const WeatherDetailsMock: WeatherDetails[] = [
   {

@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import i18n from 'modules/WeatherChecker/translations/translations';
-import { DayJSMap } from '../helpers/WeatherChecker.constants';
+import { DayJSMap } from 'modules/WeatherChecker/helpers/WeatherChecker.constants';
 
 export const getProperHourlyFormat = (timestamp: number) => {
     return dayjs.unix(timestamp).format('HH:MM')
